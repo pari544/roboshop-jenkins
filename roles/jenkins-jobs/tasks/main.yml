@@ -4,7 +4,7 @@
     name: "{{item}}"
     password: admin
     user: admin
-    url: http://172.31.13.99:8080
+    url: http://172.31.10.85:8080
   loop:
     - demo
 
@@ -14,6 +14,6 @@
     name: "{{item.folderName}}/{{item.jobName}}"
     password: admin
     user: admin
-    url: http://172.31.13.99:8080
+    url: http://172.31.10.85:8080
   loop:
     - { jobName: "sample3", folderName: "demo" }
