@@ -4,10 +4,10 @@
     name: "{{item}}"
     password: admin
     user: admin
-    url: http://172.31.10.85:8080
+    url: http://172.31.13.99:8080
   loop: "{{folders}}"
 
-- name: Create pipeline jobs
+- name: Create Pipeline Jobs
   include_role:
     name: jenkins-jobs
     tasks_from: pipeline-job
