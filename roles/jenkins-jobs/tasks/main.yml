@@ -5,8 +5,8 @@
     password: admin
     user: admin
     url: http://172.31.10.85:8080
-  loop:
-    - demo
+   loop:
+     - demo
 
 - name: Create Jenkins Jobs
   community.general.jenkins_job:
@@ -15,5 +15,5 @@
     password: admin
     user: admin
     url: http://172.31.10.85:8080
-loop:
-  - {jobName: "sample3" , folderName: "demo"}
+  loop:
+    - { jobName: "sample3" , folderName: "demo" }
