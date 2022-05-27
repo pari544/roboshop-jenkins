@@ -5,8 +5,7 @@
     password: admin
     user: admin
     url: http://172.31.10.85:8080
-  loop:
-    - demo
+  loop: "{{folders}}"
 
 - name: Create pipeline jobs
   include_role:
